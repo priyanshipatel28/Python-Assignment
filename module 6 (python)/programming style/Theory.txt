@@ -1,0 +1,68 @@
+Understanding Python’s PEP 8 guidelines. 
+ Indentation, comments, and naming conventions in Python. 
+ Writing readable and maintainable code. 
+
+-->
+1. File Naming:
+   - Python files use `.py` extension.
+   - Files run directly are **scripts**, and imported files are **modules**.
+
+2. Code Style:
+   - Indent with 4 spaces not tabs.
+   - Use `snake_case` for variables/functions and `PascalCase` for classes.
+- Keep lines under 79 characters.
+--->
+snake_case:Words are written in lowercase and separated by underscores (_).Commonly used for variables and function names.
+Examples:
+    total_count
+    calculate_sum()
+--->
+Each word starts with an uppercase letter, with no spaces or underscores. Used for class names.
+Examples:
+	MyClass
+	StudentData
+
+3. Namespaces:
+   - Each file/module has its own namespace.
+   - Import with `import module_name`.
+
+4. Program vs. Module:
+   - A `.py` file run directly is a script.
+   - The same file, when imported, acts as a module.
+
+5. Script Entry Point:
+   - Use `if __name__ == "__main__":` to run code only when the file is executed directly. 
+
+Q-Indentation, comments, and naming conventions in Python.
+---> Indentation: It is use to define block of code, while in other language it rely on braces ({}).
+--->comments:  2 types of comments:
+1. single line comment(#)
+2. multi-line comment("""/ """) or docstrings(""")
+
+extra: 
+Rebinding : variables can be reassigned to different objects during execution.
+	x=41
+	x=[1,2,3]
+--> naming convention (it means declaring variables and identifiers)
+
+{Identifiers: These are the names used for variables, functions, classes, etc., in Python. They follow specific rules (e.g., no spaces, no starting with numbers). Example:
+In age = 25, age is an identifier that names the variable.}
+
+Python Variable Naming Rules:
+
+1. Must start with a letter or an underscore (_).
+2. Cannot start with a number.
+3. Can contain only letters, numbers, and underscores (A-Z, a-z, 0-9, _).
+4. Case-sensitive (age, Age, AGE are different).
+5. Cannot use Python keywords (e.g., if, while).
+
+
+
+--> Writing Readable and Maintainable Python Code:
+
+Follow PEP 8: Use 4-space indentation and descriptive names.
+Use Comments: Explain complex logic briefly.
+Keep Code Modular: Use functions and classes for reusability.
+Handle Errors: Use try-except for safe execution.
+Use Constants: Store fixed values in uppercase variables.
+Readable Outputs: Use f-strings for clarity.
