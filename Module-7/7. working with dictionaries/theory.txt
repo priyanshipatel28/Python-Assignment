@@ -1,0 +1,17 @@
+Iterating over a dictionary using loops. 
+--->You can use a for loop to iterate through the keys, values, or both in a dictionary.
+
+my_dict = {'a': 1, 'b': 2, 'c': 3}
+for key in my_dict:
+    print(f"Key: {key}")
+for value in my_dict.values():
+    print(f"Value: {value}")
+for key, value in my_dict.items():
+    print(f"Key: {key}, Value: {value}")
+
+2) Merging two lists into a dictionary using loops or zip(). 
+---> we can merge two list when one is representing keys and other is representing values.
+using - zip()
+
+3) Counting occurrences of characters in a string using dictionaries.
+--->

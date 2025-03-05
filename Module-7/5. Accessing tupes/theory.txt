@@ -1,0 +1,21 @@
+1) Accessing tuple elements using positive and negative indexing. 
+Positive Indexing: Starts from 0 (left to right).
+Negative Indexing: Starts from -1 (right to left).
+
+tuple1 = (10, 20, 30, 40, 50)
+positive=  0   1   2   3   4
+negative= -5  -4  -3  -2  -1 
+
+print(tuple1[1])  #20
+print(tuple1[-1])  # 50
+
+
+2) Slicing a tuple to access ranges of elements. 
+--> slicing allows us to select a range of elements. 
+    (with the format of  (start:stop:step))
+
+tuple1 = (10, 20, 30, 40, 50, 60)
+
+print(tuple1[1:4])  # (20, 30, 40)
+print(tuple1[0:6:2])  # (10, 30, 50)
+print(tuple1[-4:-1])  # (30, 40, 50)

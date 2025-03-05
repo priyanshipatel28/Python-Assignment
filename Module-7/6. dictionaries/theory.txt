@@ -1,0 +1,45 @@
+1) Introduction to dictionaries: key-value pairs. 
+dictionary : dictionary is a most powerful collection data type
+
+    which is contain data in key and value
+
+    dictionary can contain only unique keys
+
+    dictionary is a powerful concept which is contain nested dictionary
+
+    dictionary which is contain similar and dis- similar values which is contain , list, tuple, set as value
+
+    dictionary which is reperesent { }  braces
+
+
+2) Accessing, adding, updating, and deleting dictionary elements. 
+---> Accessing : To access a value, use its key inside square brackets or with the get() method.
+my_dict = {'name': 'Alice', 'age': 25}
+print(my_dict['name'])        
+print(my_dict.get('age'))     
+
+#output: 
+            Alice
+            25
+
+---> Adding : To add a new key-value pair, assign a value to a new key.
+my_dict['city'] = 'New York'
+print(my_dict)   #{'name': 'Alice','age' : 25,'city':'New York'}
+
+---> updating : To update an existing key's value, reassign it.
+my_dict['age'] = 26
+print(my_dict)  #{'name': 'Alice', 'age': 26, 'city': 'New York'}
+
+--->Use the del statement or pop() method to remove a key-value pair
+del my_dict['city']
+print(my_dict)  # {'name': 'Alice', 'age': 26}
+
+age = my_dict.pop('age')
+print(my_dict)  # {'name': 'Alice'}
+print(age)      # 26
+
+
+3) Dictionary methods like keys(), values(), and items(). 
+--> keys() : returns all keys in the dictionary.
+--> values() : returns all values in the dictionary.
+--> items() : returns all key-value pairs as tuples in a list.

@@ -1,0 +1,53 @@
+Introduction to tuples, immutability. 
+-->tuple = tuple is a collection data type which contain similar and dis-similar data elements
+
+tuple which is contain duplicate elements
+tuple which is reperesent by () parenthesis
+
+difference:-  list and tuple
+
+list is slower than tuple
+
+list can mutable but tuple can't mutable means we can't change it value.
+means there is no method like append, extend, remove.... in tuple.
+
+2) Creating and accessing elements in a tuple.
+---> tuples are Created by parenthesis,and the element in tuple can't be changed.
+
+t1= (1,12,45,23,26)
+print(t1)  # (1,12,45,23,26)
+
+-->to access the lement in tuple
+print(t1[0])   #  1
+--> to access the last element in tuple
+print(t1[-1])  # 26
+-->
+3) Basic operations with tuples: concatenation, repetition, membership. 
+--->Concatenation combines two or more tuples to create a new tuple.
+tuple1 = (1, 2, 3)
+tuple2 = (4, 5, 6)
+tuple3 = tuple1 + tuple2
+print(tuple3)
+
+output:-->
+        #(1, 2, 3, 4, 5, 6)
+
+--->Repetition is a way to create a new tuple by repeating 
+the elements of an existing tuple multiple times
+tuple1 = (1, 2, 3)
+repeated_tuple = tuple1 * 3  # Repeat the tuple 3 times
+print(repeated_tuple)
+
+output:-->
+        #(1, 2, 3, 1, 2, 3, 1, 2, 3)
+
+--->Membership checks if an element exists in a tuple and returns True or False.
+tuple1 = (10, 20, 30, 40)
+print(20 in tuple1)   # Check if 20 is in the tuple
+print(50 in tuple1)   # Check if 50 is in the tuple
+
+output:-->
+        #True
+        False
+
+

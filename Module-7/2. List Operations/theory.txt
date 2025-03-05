@@ -1,0 +1,50 @@
+1) Common list operations: concatenation, repetition, membership. 
+concatenation = we are connecting 2 list with (+) operator
+l1 = [1,2,3]
+l2 = [11,12,13]
+print(l1+l2) 
+
+repetition = Repetition creates a new tuple by repeating the elements of an existing 
+tuple a specified number of times.
+l1= ['a','b','c']
+print(l1*2)
+#output: 
+        ['a','b','c','a','b','c']
+
+memebership = it will checkt the element is present in list or not(with the help of (in) opertaor)
+l1= ['a','b','c']
+print('a' in l1)
+
+num = input("Enter the elemnt you want: ")
+if num in l1:
+    print("yes")
+    print(l1)
+else:
+    print("element not present")
+
+
+
+
+2) Understanding list methods like append(), insert(), remove(), pop(). 
+--->append() = to store data in end of existing list(it will store element)
+
+    syntax :  list.append(element)
+
+        e.g.  list.append(1001)  // here list are list variable append is a method of list and 1001 is a value or element
+
+insert() = add element at specific index position
+    syntax:
+
+        list.insert(index,new_element)
+
+Remove existing element from the list
+
+1) remove() : to remove specific element from the list.
+    syntax : list.remove(elementname)
+
+2) pop() : by default remove last element from the list.
+    syntax: list.pop()
+
+    or
+
+    pop(index) : remove specific index number element from the list
