@@ -1,0 +1,5 @@
+hello,
+this is my first program.
+this is a writelines program,
+ i am trying to do write data with tuple.
+thank you for watching!!
